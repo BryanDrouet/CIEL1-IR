@@ -11,6 +11,7 @@ int main()
 	{
 		printf("Bonjour\n");
 	}
+	printf("\n");
 
 	int i2;
 	int j2;
@@ -22,6 +23,7 @@ int main()
 		}
 		printf("Bonjour\n");
 	}
+	printf("\n");
 
 	int i3;
 	int j3;
@@ -33,4 +35,5 @@ int main()
 		}
 		printf("Bonjour\n");
 	}
+	printf("\n");
 }

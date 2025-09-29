@@ -6,30 +6,28 @@
 
 int main()
 {
-	/*
-	int i;
-	for (i = 0; i < NB_TOURS; i++)
+	int i1;
+	for (i1 = 0; i1 < NB_TOURS; i1++)
 	{
 		printf("Bonjour\n");
 	}
 
-	int i;
-	int j;
-	for (i = 0; i < NB_TOURS; i++)
+	int i2;
+	int j2;
+	for (i2 = 0; i2 < NB_TOURS; i2++)
 	{
-		for (j = 0; j < i; j++)
+		for (j2 = 0; j2 < i2; j2++)
 		{
 			printf("\t");
 		}
 		printf("Bonjour\n");
 	}
-	*/
 
-	int i;
-	int j;
-	for (i = NB_TOURS; i > 0; i--)
+	int i3;
+	int j3;
+	for (i3 = NB_TOURS; i3 > 0; i3--)
 	{
-		for (j = 1; j < i; j++)
+		for (j3 = 1; j3 < i3; j3++)
 		{
 			printf("\t");
 		}

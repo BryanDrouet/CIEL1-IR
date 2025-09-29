@@ -7,8 +7,9 @@ int main()
 {
     int nbMystere = 5;
     int nbLu = 0;
+    int nbEssaiMax = 4;
 
-    while (nbLu != nbMystere) {
+    while ((nbLu != nbMystere) && (nbEssaiMax > 0, nbEssaiMax --)) {
         printf("Donner un nombre entier \n");
         scanf("%d", &nbLu);
         if (nbLu < nbMystere) {
@@ -21,7 +22,6 @@ int main()
         {
             printf("\n\nExact !\n");
         }
-        
     }
     printf("Le nombre mystere = %d\n", nbMystere);
 }

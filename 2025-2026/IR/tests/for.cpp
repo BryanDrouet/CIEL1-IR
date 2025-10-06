@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define NB_TOURS 5
+#define NB_TOURS 10
 int main() 
 {
 	// V1

@@ -1,16 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define NB_CHAR 10
+#define NB_CHAR 8
 
 int main()
 {
-  char TabChar[NB_CHAR] = "Bonjour";
+    char TabChar[NB_CHAR] = "Bonjour";
+    int i = 0;
 
-  int i;
-  while (TabChar[i] != '\0') {
-    printf("%c \n", TabChar[i]);
-    i = i + 1;
-  }
-  printf("\n");
+    while ((i < NB_CHAR) && (TabChar[i] != '\0'))
+    {
+        i++;
+        printf("%c \n", TabChar[i]);
+    }
+    printf("Fin de boucle");
 }

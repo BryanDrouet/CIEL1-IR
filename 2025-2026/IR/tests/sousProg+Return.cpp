@@ -11,6 +11,6 @@ int main()
     int Y = 20;
     int Z;
 
-    Z = addV1(X, Y); // Z = X + Y
+    Z = addV1(X, Y); // Z <= X + Y
     printf("%d", Z);
 }

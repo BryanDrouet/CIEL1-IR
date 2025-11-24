@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int addV1(int x, int y) {
-    return x + y;
+    return (x + y);
 }
 
 int main()

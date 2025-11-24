@@ -3,7 +3,7 @@
 
 int addV1(int x, int y);
 int addV2(int* px, int* py);
-void addV3(int* px, int* py, int* pz);
+void addV3(const int* px, const int* py, int* pz);
 
 int main()
 {
@@ -24,10 +24,10 @@ int addV1(int x, int y) {
     return (x + y);
 }
 
-int addV2(int* px, int* py) {
+int addV2(const int* px, const int* py) {
     return (*px + *py);
 }
 
-void addV3(int* px, int* py, int* pz) {
+void addV3(const int* px, const int* py, int* pz) {
     *pz = *px + *py;
 }

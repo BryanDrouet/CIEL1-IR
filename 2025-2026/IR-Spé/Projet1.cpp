@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+// #define _CRT_SECURE_NO_WARNINGS
 
 #include <iostream>
 
@@ -8,13 +8,18 @@
 int main()
 {
     int X = 10;
-    int* pX = &X;
     char chaine[10] = "X = ";
 
-    scanf("%d", pX);
+
+    // --------------   C   ---------------
+    int* pX = &X;
+    // scanf("%d", pX);
 
     printf("X = %d \n", X);
     printf("%s%d \n", chaine, X);
+    
 
-    std::cout << "X = " << X << std::endl;
+    // --------------  C++  ---------------
+    std::cin >> X;
+    std::cout << "X = " << X << std::endl; 
 }

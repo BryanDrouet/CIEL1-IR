@@ -20,6 +20,8 @@ int main()
     
 
     // --------------  C++  ---------------
+    using namespace std;
+
     std::cin >> X;
-    std::cout << "X = " << X << std::endl; 
+    cout << "X = " << X << endl; 
 }

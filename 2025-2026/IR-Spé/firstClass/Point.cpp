@@ -2,20 +2,14 @@
 #include <stdlib.h>
 #include "Point.h"
 
-struct tableau {
-    float x;
-    float y;
-};
-
-struct tableau monPoint;
-
-void initPoint()
+void initPoint(Point* pPoint, float x, float y)
 {
-    monPoint.x = 10;
-    monPoint.y = 20;
+    pPoint -> X = x;
+    pPoint -> Y = y;
 }
 
-void afficherPoint()
+void afficherPoint(const Point* pPoint)
 {
-    printf("Coordonnees : x = %f | y = %f \n", monPoint.x, monPoint.y);
+    printf("X = %f \n", pPoint -> X);
+    printf("Y = %f \n", pPoint -> Y);
 }
